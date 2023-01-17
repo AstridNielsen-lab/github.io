@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página</title>
+    <style>
+      /* Estilos para o menu responsivo */
+      /* Oculta o menu em dispositivos pequenos */
+      @media (max-width: 600px) {
+        #menu {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav id="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      /* Botão para mostrar o menu em dispositivos pequenos */
+      <button onclick="document.getElementById('menu').style.display = 'block';">☰</button>
+    </header>
+    <main>
+      <h1>Bem-vindo</h1>
+      <p>Conteúdo da página</p>
+    </main>
+  </body>
+</html>
