@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dispərət Techno⚡Social Faculty</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-      /* Estilos para o menu responsivo */
-      /* Oculta o menu em dispositivos pequenos */
-      @media (max-width: 600px) {
-        #menu {
-          display: none;
+        /* CSS para o menu flutuante */
+        .floating-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1;
         }
-      }
+
+        /* CSS para o rodapé */
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+        }
     </style>
-  </head>
-  <body>
-    <header>
-      <nav id="menu">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-     
-      <button onclick="document.getElementById('menu').style.display = 'block';">☰</button>
-    </header>
-    <main>
-      <h1>Bem-vindo</h1>
-      <p>Conteúdo da página</p>
-    </main>
-  </body>
+</head>
+
+<body>
+    <div class="floating-menu">
+        <!-- Conteúdo do menu flutuante -->
+    </div>
+
+    <!-- Conteúdo da página -->
+
+    <div class="footer">
+        <!-- Conteúdo do rodapé -->
+    </div>
+</body>
+
 </html>
